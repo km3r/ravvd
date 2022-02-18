@@ -18,8 +18,8 @@ export default function ProjectView({ project }: { project: Project }) {
 }
 const styles = StyleSheet.create({
     name: {
-        padding: 10,
-        fontSize: 26,
+        padding: 15,
+        fontSize: 34,
         fontWeight: 'bold',
         alignItems: 'center',
         marginHorizontal: 10,

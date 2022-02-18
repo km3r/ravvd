@@ -27,7 +27,7 @@ export default class DJCard extends React.Component<Props, Props>{
   render() {
     return (
         <View>
-          <Flex h="100%">
+          <Flex h="100%" pt={2}>
             <ProjectView project={this.state.prodProject}/>
             <AliasView productionProject={this.state.prodProject}/>
             <Divider/>
